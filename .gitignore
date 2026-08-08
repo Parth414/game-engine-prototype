@@ -23,7 +23,6 @@
 *.dll
 *.so.*
 
-
 # Fortran module files
 *.mod
 *.smod
@@ -67,3 +66,24 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.VC.db*
+*.opendb
+
+# Build output
+Temporary/
+x64/
+Win32/
+Debug/
+Release/
+
+# MSVC intermediate artifacts
+*.idb
+*.exp
+*.tlog
+*.recipe
+*.ipch
